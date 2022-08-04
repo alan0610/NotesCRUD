@@ -1,6 +1,5 @@
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
+# Notes
+Notes is a full stack CRUD app where you can create, update, read and delete notes with title and their description. Created with Nodejs and React
 
 ## Installation
 
