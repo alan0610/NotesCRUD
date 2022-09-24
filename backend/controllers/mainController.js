@@ -25,14 +25,7 @@ module.exports = {
     }
     )
     },
-    /*list: function(req, res){
-        let dataNotas = db.Nota.findAll({raw: true})
-        .catch(e => {
-            console.log(e);
-        });
-        return res.json(dataNotas)
-    },*/
-
+    
     //Mostrar una nota
     show: (req, res) =>{
         db.Nota
