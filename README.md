@@ -1,5 +1,6 @@
 # Notes
-Notes is a full stack CRUD app where you can create, update, read and delete notes with title and their description. Created with Nodejs and React
+Notes is a full stack CRUD app where you can create, update, read and delete notes with title and their description. Created with Nodejs, React and MySql for the database
+
 ## Envinroment setup
 
 1. Create database "notas"
