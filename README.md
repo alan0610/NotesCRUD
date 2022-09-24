@@ -9,7 +9,8 @@ Notes is a full stack CRUD app where you can create, update, read and delete not
 
 ```bash
 cd backend
-npm install```
+npm install
+```
 
 3. Migrations:
 
@@ -27,8 +28,10 @@ npx sequelize-cli db:seed:all
 
 ```bash
 cd backend
-node app.js```
+node app.js
+```
 
 ```bash
 cd frontend
-npm start```
+npm start
+```
