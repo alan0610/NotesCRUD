@@ -2,12 +2,12 @@
 Notes is a full stack CRUD app where you can create, update, read and delete notes with title and their description. Created with Nodejs and React
 ## Envinroment setup
 
-1. Create database
-2. Copy .env.example to .env and fill with database credentials.
+1. Create database "notas"
 
-To install dependencies, run
+2. To install dependencies, run
 
 ```bash
+cd backend
 npm install
 ```
 
@@ -26,12 +26,11 @@ npx sequelize-cli db:seed:all
 ## Installation
 
 ```bash
-backend
-npm i
+cd backend
 node app.js
 ```
 
 ```bash
-frontend
+cd frontend
 npm start
 ```
