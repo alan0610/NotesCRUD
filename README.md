@@ -18,13 +18,7 @@ npm install
 npx sequelize-cli db:migrate
 ```
 
-4. Seeders:
-
-```bash
-npx sequelize-cli db:seed:all
-```
-
-## Installation
+## Start the server
 
 ```bash
 cd backend
