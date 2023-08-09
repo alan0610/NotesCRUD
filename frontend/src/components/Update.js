@@ -3,7 +3,7 @@ import axios from 'axios'
 import {useState, useEffect} from 'react'
 import {useNavigate, useParams} from 'react-router-dom'
 
-const URI = 'https://crus-notes.onrender.com/'
+const URI = 'http://localhost:3030/'
 
 const CompUpdate = () => {
     const [titulo, setTitulo] = useState ('')
@@ -22,7 +22,7 @@ const CompUpdate = () => {
 
     useEffect( () => {
         getNotaById()
-    })
+    },[])
 
     const getNotaById = () => {
         fetch(URI+id)
