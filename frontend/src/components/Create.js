@@ -3,7 +3,7 @@ import axios from 'axios'
 import {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 
-const URI = 'http://localhost:3030/'
+const URI = 'https://crus-notes.onrender.com/'
 
 const CompCreate = () => {
     const [titulo, setTitulo] = useState ('')
