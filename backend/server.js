@@ -1,16 +1,8 @@
-const express = require("express");
-const app = express();
-const path = require("path");
-const routes = require("./routes/routes")
-const cors = require("cors")
+const app = require('./app')
+const http = require('http')
 
-app.use(cors());
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json())
-app.use(express.static(path.join(__dirname, 'public')));
+const server = http.createServer(app)
 
-app.listen(3030, ()=>{ 
-    console.log("El servidor RED corriendo en: http://localhost:3030/");
+server.listen(3030, ()=>{ 
+    console.log('Started on port 3030');
 });
-
-app.use("/", routes)
