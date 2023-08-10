@@ -5,7 +5,6 @@ const routes = require("./routes/routes")
 const cors = require("cors")
 const http = require('http')
 
-const server = http.createServer(server)
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json())
