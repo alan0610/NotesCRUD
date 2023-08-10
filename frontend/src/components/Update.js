@@ -3,7 +3,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 
-const URI = "http://localhost:3030/";
+const URI = "https://notescrud.up.railway.app/";
 
 const CompUpdate = () => {
   const [titulo, setTitulo] = useState("");
