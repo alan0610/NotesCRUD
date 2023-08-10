@@ -11,18 +11,23 @@ const CompUpdate = () => {
   const navigate = useNavigate();
   const { id } = useParams();
 
-  const update = (e) => {
+  const update = async (e) => {
     e.preventDefault();
-    axios.put(URI + id, {
-      titulo: titulo,
-      content: content,
-    });
-    navigate("/");
+    try {
+      await axios.put(URI + id, {
+        titulo: titulo,
+        content: content,
+      });
+      navigate("/");
+    } catch (error) {
+      console.error(error);
+    }
   };
+  
 
   useEffect(() => {
     getNotaById();
-  });
+  }, [id]);
 
   const getNotaById = () => {
     fetch(URI + id)
