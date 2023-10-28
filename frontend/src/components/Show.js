@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import React from 'react';
 
-const URI = 'https://notescrud.up.railway.app/'
+const URI = 'https://notes-backend-amu5.onrender.com/'
 
 const CompShow = () => {
     const [notas, setNotas] = useState([])

@@ -3,7 +3,7 @@ import axios from 'axios'
 import {useState} from 'react'
 import {useNavigate} from 'react-router-dom'
 
-const URI = 'https://notescrud.up.railway.app/'
+const URI = 'https://notes-backend-amu5.onrender.com/'
 
 const CompCreate = () => {
     const [titulo, setTitulo] = useState ('')
